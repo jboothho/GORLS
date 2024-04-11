@@ -1,4 +1,4 @@
-# This file opens numbers.html, reads the list of numbers 
+# This file opens numbers.html, goes through 1-50
 # The number is decided if its even or odd then writes to the HTML in a Table
 with open("numbers.html", "w") as f:
     f.write("<html>\n<head>\n<title>List of Numbers</title>\n</head>\n<body>\n")
