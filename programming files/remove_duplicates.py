@@ -1,7 +1,10 @@
+# function that returns a new array without duplicates and an array with the removed elements
 def remove_duplicates(arr):
     arr.sort()
     unique_arr = []
     removed_elements = []
+
+    # testing for duplicates and adding to the respective arrays
     for i in range(len(arr)):
         if i == 0 or arr[i] != arr[i-1]:
             unique_arr.append(arr[i])
